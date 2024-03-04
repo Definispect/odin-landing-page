@@ -1,2 +1,2 @@
-# odin-landing-page
+# Odin Landing Page
 TOP landing page project
