@@ -12,4 +12,33 @@ body {
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+header,
+.hero {
+    background-color: #1f2937;
+    padding: 0 15%;
+}
+
+header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    gap: 24px;
+}
+
+.headertext {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerlink {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerlink.link1 {
+    margin-left: auto;
 }
