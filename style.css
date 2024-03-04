@@ -47,13 +47,17 @@ header {
     display: flex;
     padding-top: 48px;
     padding-bottom: 48px;
+    justify-content: space-between;
 }
 
-.hero > * {
+.hero > div {
     flex: 1;
+}
+
+.hero > img {
+    flex: 0 1 300px;
 }
 
 .heroimage {
     background-color: lightgray;
-
 }
