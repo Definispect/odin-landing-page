@@ -42,3 +42,18 @@ header {
 .headerlink.link1 {
     margin-left: auto;
 }
+
+.hero {
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.hero > div {
+    flex: 1;
+}
+
+.heroimagebox {
+    background-color: lightgray;
+
+}
