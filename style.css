@@ -48,16 +48,21 @@ header {
     padding-top: 48px;
     padding-bottom: 48px;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .hero > div {
     flex: 1;
 }
 
-.hero > img {
-    flex: 0 1 300px;
+.heroimagebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .heroimage {
     background-color: lightgray;
+    width: 350px;
+    height: 150px;
 }
