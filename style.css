@@ -41,7 +41,8 @@ header {
 }
 
 .headerlink,
-.herosubtext {
+.herosubtext,
+footer {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -49,6 +50,13 @@ header {
 
 .headerlink.link1 {
     margin-left: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
 }
 
 .hero {
@@ -198,4 +206,13 @@ button.signup {
 .actionsubtext {
     color: #E5E7EB;
     font-size: 12px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    margin-top: auto;
+    height: 96px;
 }
