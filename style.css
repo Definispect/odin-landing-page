@@ -32,7 +32,12 @@ header {
     padding-top: 18px;
     padding-bottom: 12px;
     display: flex;
+    align-items: center;
     gap: 24px;
+}
+
+.logo {
+    height: 36px;
 }
 
 .headertext {
