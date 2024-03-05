@@ -166,3 +166,36 @@ button.signup {
     font-size: 24px;
     font-weight: 800;
 }
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+
+.actionwidget {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 64px;
+    padding-right: 64px;
+    border-radius: 6px;
+    gap: 96px;
+}
+
+.actionwidget > button.signup {
+    border: 2px solid #F9FAF8;
+}
+
+.actiontitle {
+    color: #FFFFFF;
+}
+
+.actionsubtext {
+    color: #E5E7EB;
+    font-size: 12px;
+}
