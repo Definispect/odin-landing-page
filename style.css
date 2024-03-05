@@ -68,6 +68,7 @@ footer {
 .herotextbox {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .heromaintext {
@@ -84,8 +85,7 @@ footer {
 
 .heroimage {
     background-color: #6d747d; /*Placeholder*/
-    width: 350px;
-    height: 150px;
+    width: 326px;
 }
 
 button.signup {
@@ -134,8 +134,8 @@ button.signup {
 }
 
 .infoimage {
-    width: 144px;
-    height: 144px;
+    width: 156px;
+    height: 156px;
     background-color: #FFFFFF;
     border: 4px solid #3882F6;
     border-radius: 12px;
