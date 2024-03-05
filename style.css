@@ -16,16 +16,16 @@ body {
 }
 
 header,
-.hero {
-    background-color: #1f2937;
-}
-
-header,
 .hero,
 .info,
 .quote,
 .action {
     padding: 0 15%;
+}
+
+header,
+.hero {
+    background-color: #1f2937;
 }
 
 header {
@@ -53,8 +53,8 @@ header {
 
 .hero {
     display: flex;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 96px;
+    padding-bottom: 124px;
     justify-content: space-between;
     gap: 24px;
 }
