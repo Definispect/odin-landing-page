@@ -99,3 +99,19 @@ button.signup {
     align-self: flex-start;
     margin-top: 12px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoitems {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
