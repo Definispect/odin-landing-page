@@ -144,4 +144,25 @@ button.signup {
 
 .quote {
     background-color: #E5E7EB;
+    padding-top: 136px;
+    padding-bottom: 136px;
+    padding-left: 22%;
+    padding-right: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoteattribute {
+    align-self: flex-end;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 800;
 }
