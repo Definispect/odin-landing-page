@@ -113,6 +113,7 @@ button.signup {
     color: #1f2937;
     margin-top: 36px;
     margin-bottom: 36px;
+    text-align: center;
 }
 
 .infoitems {
@@ -120,6 +121,7 @@ button.signup {
     justify-content: center;
     gap: 46px;
     margin-bottom: 108px;
+    flex-wrap: wrap;
 }
 
 .infoitem {
@@ -147,8 +149,8 @@ button.signup {
     background-color: #E5E7EB;
     padding-top: 136px;
     padding-bottom: 136px;
-    padding-left: 22%;
-    padding-right: 22%;
+    padding-left: 30%;
+    padding-right: 30%;
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -182,14 +184,19 @@ button.signup {
     align-items: center;
     padding-top: 36px;
     padding-bottom: 36px;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 88px;
+    padding-right: 88px;
     border-radius: 6px;
-    gap: 96px;
+    gap: 88px;
+}
+
+.actiontext {
+    flex: 3;
 }
 
 .actionwidget > button.signup {
     border: 2px solid #F9FAF8;
+    flex-shrink: 0;
 }
 
 .actiontitle {
@@ -198,7 +205,7 @@ button.signup {
 
 .actionsubtext {
     color: #E5E7EB;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 footer {
