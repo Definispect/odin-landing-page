@@ -63,6 +63,11 @@ header {
     flex: 1;
 }
 
+.herotextbox {
+    display: flex;
+    flex-direction: column;
+}
+
 .heromaintext {
     font-size: 48px;
     font-weight: 800;
@@ -79,4 +84,18 @@ header {
     background-color: lightgray; /*Placeholder*/
     width: 350px;
     height: 150px;
+}
+
+button.signup {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 6px;
+    padding: 7px 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.herotextbox > button.signup {
+    align-self: flex-start;
+    margin-top: 12px;
 }
