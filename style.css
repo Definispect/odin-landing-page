@@ -112,6 +112,23 @@ button.signup {
     gap: 24px;
 }
 
+.infoitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoimage {
+    width: 136px;
+    height: 136px;
+    background-color: lightgray;
+}
+
+.infosubtext {
+    text-align: center;
+    color: #4b5563;
+}
+
 .quote {
     background-color: #E5E7EB;
 }
